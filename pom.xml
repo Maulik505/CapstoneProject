@@ -35,5 +35,7 @@
     </dependencyManagement>
 
 
-
+    <modules>
+          <module>account-service</module>
+    </modules>
 </project>
