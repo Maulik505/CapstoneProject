@@ -1,4 +1,4 @@
-package com.piggymetrics.account;
+package com.expensemanager.account;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

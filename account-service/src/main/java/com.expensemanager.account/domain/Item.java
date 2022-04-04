@@ -1,4 +1,4 @@
-package com.piggymetrics.account.domain;
+package com.expensemanager.account.domain;
 
 import org.hibernate.validator.constraints.Length;
 

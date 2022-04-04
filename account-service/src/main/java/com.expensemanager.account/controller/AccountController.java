@@ -1,8 +1,8 @@
-package com.piggymetrics.account.controller;
+package com.expensemanager.account.controller;
 
-import com.piggymetrics.account.domain.Account;
-import com.piggymetrics.account.domain.User;
-import com.piggymetrics.account.service.AccountService;
+import com.expensemanager.account.domain.Account;
+import com.expensemanager.account.domain.User;
+import com.expensemanager.account.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package com.piggymetrics.account.domain;
+package com.expensemanager.account.domain;
 
 import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;

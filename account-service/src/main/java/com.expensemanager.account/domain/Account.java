@@ -1,4 +1,4 @@
-package com.piggymetrics.account.domain;
+package com.expensemanager.account.domain;
 
 import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 import org.hibernate.validator.constraints.Length;
@@ -9,6 +9,7 @@ import javax.validation.Valid;
 import javax.validation.constraints.NotNull;
 import java.util.Date;
 import java.util.List;
+import java.util.Scanner;
 
 @Document(collection = "accounts")
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -78,5 +79,15 @@ public class Account {
 
 	public void setNote(String note) {
 		this.note = note;
+	}
+
+	public static void main(String []args){
+
+		Scanner sc = new Scanner(System.in);
+		int intArr[] = new int[10];
+		for(int i = 0; i < 10; i++)
+			intArr[i] = sc.nextInt();
+		for(int i = 0; i < 10; i++)
+			System.out.println(intArr[i]);
 	}
 }

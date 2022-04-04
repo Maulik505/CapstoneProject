@@ -1,6 +1,6 @@
-package com.piggymetrics.account.repository;
+package com.expensemanager.account.repository;
 
-import com.piggymetrics.account.domain.Account;
+import com.expensemanager.account.domain.Account;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
