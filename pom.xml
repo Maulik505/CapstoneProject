@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.capstone</groupId>
-    <artifactId>ExpenseManager</artifactId>
+    <artifactId>expensemanager</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
@@ -36,6 +36,13 @@
 
 
     <modules>
-          <module>account-service</module>
+        <module>config</module>
+        <module>registry</module>
+        <module>auth-service</module>
+        <module>account-service</module>
+        <module>gateway</module>
+        <module>statistics-service</module>
+        <module>notification-service</module>
+        <module>turbine-stream-service</module>
     </modules>
 </project>
