@@ -1,0 +1,6 @@
+com\expensemanager\notification\repository\RecipientRepositoryTest.class
+com\expensemanager\notification\service\NotificationServiceImplTest.class
+com\expensemanager\notification\service\RecipientServiceImplTest.class
+com\expensemanager\notification\service\EmailServiceImplTest.class
+com\expensemanager\notification\NotificationServiceApplicationTests.class
+com\expensemanager\notification\controller\RecipientControllerTest.class
