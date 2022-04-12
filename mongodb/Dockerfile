@@ -1,5 +1,5 @@
 FROM mongo:3
-MAINTAINER  Lukyanchikov <sqshq@sqshq.com>
+MAINTAINER  Maulik Mistri (C0783505) <C0783505@mylambton.ca>
 
 ADD init.sh /init.sh
 ADD demo /

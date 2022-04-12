@@ -1,5 +1,5 @@
 FROM java:8-jre
-MAINTAINER Chi Dov <d.chiproeng@gmail.com>
+MAINTAINER Maulik Mistri (C0783505) <C0783505@mylambton.ca>
 
 ADD ./target/turbine-stream-service.jar /app/
 CMD ["java", "-Xmx200m", "-jar", "/app/turbine-stream-service.jar"]

@@ -3,15 +3,15 @@ security:
     client:
       clientId: account-service
       clientSecret: ${ACCOUNT_SERVICE_PASSWORD}
-      accessTokenUri: http://auth-service:5000/uaa/oauth/token
+      accessTokenUri: http://localhost:5000/uaa/oauth/token
       grant-type: client_credentials
       scope: server
 
 spring:
   data:
     mongodb:
-      host: account-mongodb
-      username: user
+      host: localhost
+      username:
       password: ${MONGODB_PASSWORD}
       database: expensemanager
       port: 27017
