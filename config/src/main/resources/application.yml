@@ -10,6 +10,7 @@ spring:
      active: native
   security:
     user:
+      username: user
       password: ${CONFIG_SERVICE_PASSWORD}
 
 server:
